@@ -1,0 +1,740 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.headtexts {
+    /* we have 2 headtext build and "ready to build" */
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.desktoph1{
+    display: none;
+}
+
+.text {
+    /* all textst fonts */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.desktopbuildtext{
+    display: none;
+}
+
+.button {
+    /* we have 4 buttons but here is sizes for 2 button */
+    width: 200px;
+    height: 40px;
+    background-color: rgba(255, 82, 193, 1);
+    box-shadow: 0px 3px 7px 0px rgba(0, 37, 46, 0.22);
+    border-radius: 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttext {
+    /* font for 2 buttons text */
+    font-weight: 700;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-1 {
+    width: 96px;
+    height: 16px;
+   fill: red;
+
+}
+
+.headersbutton {
+    width: 80px;
+    height: 23.53px;
+    border-radius: 12px;
+    border: solid 1px pink;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 82, 193, 0.22);
+}
+
+.headbuttext {
+    color: rgba(255, 82, 193, 1);
+    font-family: 400;
+    font-size: 9.41px;
+}
+
+.main {
+    background-color: #F2F2F2;
+}
+
+.build-box {
+    margin-top: 116px;
+    margin-bottom: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.aloneimgbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alonecentrimg {
+    width: 85%;
+    height: auto;
+}
+
+.centerminiboxs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 91px;
+    margin-top: 161px;
+    margin-bottom: 100px;
+   
+}
+
+.minibox {
+    /* width: 170px;
+    height: 121px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: center;
+
+}
+
+.communitieslogo {
+    width: 30px;
+
+}
+
+.communitiesh2 {
+    color: rgba(0, 37, 46, 1);
+    font-weight: 700;
+    font-size: 61px;
+
+}
+
+.communitiestext {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(128, 142, 154, 1);
+}
+
+.messageslogo {
+    width: 27.32px;
+
+}
+
+.messagesh2 {
+    font-weight: 700;
+    font-size: 54px;
+    color: rgba(0, 37, 46, 1);
+}
+
+.messagestext {
+    font-weight: 400;
+    font-size: 13.38px;
+    color: rgba(128, 142, 154, 1);
+}
+
+.centerbigbox {
+    /* in this box is 3 boxses grow flowing and your */
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.growbox {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    background-color: rgba(246, 251, 255, 1);
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.topmobile-1 {
+    position: absolute;
+    top: -100px;
+    left: 0; 
+    width: 100%;
+    z-index: -1; 
+}
+
+.bottommobile-1 {
+    position: absolute; 
+    top: 560px;
+    left: 40px;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+   
+}
+
+.topdesktopimg-1 {
+    display: none;
+}
+
+.bottomdesktopimg-1 {
+    display: none;
+}
+
+.growimg {
+    width: 68%;
+}
+
+.inbigtextbox {
+    /* it is one name for 3 text  boxes "grow" "flowing" and "your"  */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    
+}
+
+.growtextbox {
+    display: flex;
+    flex-direction: column;
+    
+}
+.desktopgrowtext{
+    display: none;
+}
+
+.allh3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text {}
+
+.flowingbox {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.flowingimg {
+    width: 68%;
+}
+
+.flowingtextbox {}
+
+.desktopflowingtext{
+    display: none;
+}
+
+.yourbox {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+    position: relative;
+    padding-bottom: 60px;
+    background-color: rgba(246, 251, 255, 1);
+}
+
+.yourimg {
+    width: 68%;
+}
+.desktopyourtext{
+    display: none;
+}
+
+.boxstopborderimg-2 {
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    z-index: -1;
+}
+
+.boxsbottomborderimg-2 {
+    position: absolute;
+    top: 430px;
+    width: 100%;
+    left: 0;   
+    z-index: -1;
+}
+
+.yourboxstopimg {
+    display: none;
+
+}
+
+.yourboxsbottomimg {
+    display: none;
+
+}
+
+.readytextbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 251px;
+    text-align: center;
+}
+
+
+.footer {
+    padding-top: 50px;
+    width: 100%;
+    background-color: rgba(0, 37, 46, 1);
+    position: relative;
+    gap: 104px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerimg {
+    /* it is footers border top img */
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.footerdesktopimg {
+    position: absolute;
+    top: -150px;
+    display: none;
+}
+
+.footersbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletterbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 28px;
+    margin-right: 28px;
+    gap: 32px;
+}
+
+.footersonlitextbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.newsletterh3 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.newslettertext {
+    color: rgba(255, 255, 255, 1);
+}
+.desktopnewslettertext{
+    display: none;
+}
+
+.inputbuttendiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.newsletterinput {
+    width: 100%;
+    height: 48px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.newsletterbutton {
+    width: 160px;
+    height: 48px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.huddlebox {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.logoandtextbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logoandtextbox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logoend {
+    width: 200px;
+    height: 32px;
+    fill: white;
+   
+}
+
+.huddletext {
+    color: rgba(255, 255, 255, 1);
+}
+.desktophuddletext{
+    display: none;
+}
+
+.phoneandmailbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.phonebox {
+    display: flex;
+    gap: 19px;
+}
+
+.phonesvg {
+    width: 18px;
+    height: 18px;
+}
+
+.phonetext {
+    color: rgba(255, 255, 255, 1);
+}
+
+.mailbox {
+    display: flex;
+    gap: 19px;
+}
+
+.mailsvg {
+    width: 18px;
+    height: 14px;
+}
+
+.mailtext {
+    color: rgba(255, 255, 255, 1);
+}
+
+.socialbox {
+    display: flex;
+    gap: 18px;
+}
+
+.fab {
+    font-size: 23px;
+    padding-bottom: 46px;
+    color: white;
+}
+
+
+
+
+
+
+/* desktop version */
+@media screen and (min-width: 768px) {
+    .body{
+    
+    }
+    .main{
+    
+    }
+    .build-box {
+
+    }
+    .logo-1{
+        width: 240px;
+        height: 38px;
+    }
+    .headersbutton{
+        width: 136px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    
+    .header{
+        padding: 65px;
+    }
+    .headtexts {
+        /* we have 2 headtext build and "ready to build" */
+       display: none;
+    }
+    .desktoph1{
+        display: block;
+        font-size: 48px;
+    }
+
+    .text {
+        /* all textst fonts */
+       display: none;
+       
+    }
+    .button{
+        width: 400px;
+        height: 80px;   
+        border-radius: 40px;
+     }
+    .buttext{
+        font-size: 20px;
+
+
+    }
+   
+    .desktopbuildtext{
+        display: block;
+        font-size: 20px;
+        
+    }
+    .centerminiboxs{
+        flex-direction: row;
+       justify-content: center;
+       gap: 341px;
+       margin-bottom: 250px;
+     }
+     .communitieslogo{
+        width: 49px;
+        height: 50px;
+
+     }
+     .communitiesh2{
+        font-size: 96px;
+     }
+     .communitiestext{
+        font-size: 24px;
+     }
+
+
+
+     .messageslogo{
+        width: 49px;
+        height: 50px;
+     }
+     .messagesh2{
+        font-size: 96px;
+     }
+     .messagestext{
+        font-size: 24px;
+      
+     }
+
+       .centerbigbox{
+        gap: 300px;
+       
+       }
+
+       .growbox{
+        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 131px;
+
+       }
+     
+       .growimg{
+        width: 40%;
+        height: auto;
+       }
+       .growtextbox{
+        text-align: start;
+        gap: 26px;
+       }
+       .growh3{
+        font-size: 40px;
+       }
+       .desktopgrowtext{
+        display: block;
+
+    }
+
+       .inbigtextbox{
+       flex-direction: column;
+      
+       }
+       
+
+       .flowingbox{
+        flex-direction: row;
+        justify-content: center;
+        gap: 150px;
+       }
+       .flowingimg{
+        width: 40%;
+       }
+       .flowingtextbox{
+        text-align: start;
+        gap: 26px;
+       }
+       .flowingh3{
+        font-size: 40px;
+       }
+       .desktopflowingtext{
+        display: block;
+       }
+
+       .yourbox{
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        gap: 300px;
+       
+       }
+       .yourimg{
+        width: 40%;
+       }
+
+       .yourtextbox{
+        text-align: start;    
+        gap: 26px;
+       }
+       .yourh3{
+        font-size: 40px;
+       }
+       .desktopyourtext{
+        display: block;
+       }
+
+       .readyh3{
+        font-size: 40px;
+       }
+
+       .footer{
+        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: space-around
+       }
+       .footersonlitextbox{
+
+       }
+       .desktopnewslettertext{
+        display: block;
+        color: white;
+        line-height: 24px
+       }
+     
+       .inputbuttendiv{
+        flex-direction: row;
+       }
+       .newsletterinput{
+        width: 320px;
+        height: 48px;
+        border-radius: 6px;
+       }
+       .newsletterbutton{
+        width: 160px;
+        height: 48px;
+        border-radius: 5px
+       }
+ 
+       .socialbox{
+        margin-top: 80px;
+       }
+       .desktophuddletext{
+        display: block;
+        color: white;
+        line-height: 24px
+       }
+       .phonetext{
+        display: block;
+       }
+       .mailtext{
+        display: block;
+       }
+
+    .topmobile-1 {
+        display: none;
+    }
+
+    .bottommobile-1 {
+        display: none;
+    }
+
+    .topdesktopimg-1 {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -150px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .bottomdesktopimg-1 {
+        display: block;
+        position: absolute;
+        top: 600px;
+        left: 0;
+        width: 100%;
+    }
+
+    .boxstopborderimg-2 {
+        display: none;
+    }
+
+    .boxsbottomborderimg-2 {
+        display: none;
+    }
+
+    .yourboxstopimg {
+        display: block;
+        position: absolute;
+        top: -145px;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .yourboxsbottomimg {
+        display: block;
+        position: absolute;
+        top: 450px;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .footerimg {
+        display: none;
+    }
+
+    .footerdesktopimg {
+        display: block;
+        width: 100%;
+        top: -140px;
+        z-index: -1;
+
+    }
+
+
+
+}
